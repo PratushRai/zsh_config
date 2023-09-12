@@ -26,3 +26,6 @@ export KEYTIMEOUT=1
 alias ls='exa --long --header'
 
 source ~/.bash_profile
+
+#Syntax Highlighting
+source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh

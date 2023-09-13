@@ -1,4 +1,8 @@
+#Load neofetch at startup
+neofetch
+
 #Loading the colors
+
 autoload -U colors && colors 
 
 autoload -U promptinit && promptinit
@@ -24,6 +28,8 @@ export KEYTIMEOUT=1
 
 #Alias 
 alias ls='exa --long --header'
+alias cat='bat'
+alias nf='neofetch'
 
 source ~/.bash_profile
 
